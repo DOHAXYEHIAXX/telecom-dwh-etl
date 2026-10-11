@@ -1,8 +1,5 @@
 # Telecom Data Warehouse ETL
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
-![Database](https://img.shields.io/badge/Database-SQLite%20demo%20%7C%20SQL%20Server-CC2927?logo=microsoftsqlserver&logoColor=white)
-
 A complete, runnable ETL project for the telecom transaction case study. It ingests the supplied pipe-delimited files, validates and transforms each record, writes accepted transactions and rejects to separate destinations, tracks each batch, and archives a source file only after its database transaction commits.
 
 The local demonstration uses Python's standard library and SQLite, so it runs without an ETL platform or database server. SQL Server DDL and lookup seed scripts are included for the target model in the original materials. The SQL Server scripts describe the production-shaped schema; the Python runner currently writes to SQLite.
