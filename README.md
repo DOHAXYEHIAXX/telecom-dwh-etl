@@ -103,6 +103,3 @@ Avoid placing real customer data in this repository. For production, add a secur
 - [Professional README tutorial](https://www.youtube.com/watch?v=evz1LqEomTE)
 - [Additional README tutorial](https://www.youtube.com/watch?v=pHllKT62-rc)
 
-## License
-
-MIT. See [LICENSE](LICENSE).
