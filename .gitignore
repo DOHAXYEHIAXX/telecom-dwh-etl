@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Local runtime state and secrets
+.env
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+logs/
+
+# Generated ETL outputs
+data/inbox/*.csv
+data/archive/processed/*.csv
+data/archive/failed/*.csv
+!data/inbox/.gitkeep
+!data/archive/processed/.gitkeep
+!data/archive/failed/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
